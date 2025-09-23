@@ -1,6 +1,7 @@
 package net.guilherme.tutorialmod.item;
 
 import net.guilherme.tutorialmod.TutorialMod;
+import net.guilherme.tutorialmod.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -18,8 +19,16 @@ public class ModCreativeModeTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(moditem.SAPPHIRE.get()))
                     .title(Component.translatable("creativetab.tutorial_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        //items
                         pOutput.accept(moditem.SAPPHIRE.get());
                         pOutput.accept(moditem.RAW_SAPPHIRE.get());
+                        pOutput.accept(moditem.URANIUM_INGOT.get());
+
+                        //blocks
+                        pOutput.accept(ModBlocks.URANIUM_BLOCK.get());
+                        pOutput.accept(ModBlocks.SAPPHIRE_BLOCK.get());
+                        pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
+
 
 
                     })
