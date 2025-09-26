@@ -32,7 +32,8 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).sound(SoundType.CALCITE)));
 
     public static final RegistryObject<Block> DEEPSLATE_URANIUM_ORE = registerBlock("deepslate_uranium_ore",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.LAPIS_ORE)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+                    .strength(3f).requiresCorrectToolForDrops(), UniformInt.of(0, 0)));
 
     public static final RegistryObject<Block> SAPPHIRE_ORE = registerBlock("sapphire_ore",
         () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)

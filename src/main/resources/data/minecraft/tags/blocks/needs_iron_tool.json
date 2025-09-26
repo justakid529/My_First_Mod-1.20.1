@@ -3,7 +3,9 @@
     "tutorialmod:sapphire_block",
     "tutorialmod:raw_sapphire_block",
     "tutorialmod:sapphire_ore",
-    "tutorialmod:deepslate_sapphire_ore"
+    "tutorialmod:deepslate_sapphire_ore",
+    "tutorialmod:deepslate_uranium_ore",
+    "tutorialmod:uranium_block"
 
   ]
 }
