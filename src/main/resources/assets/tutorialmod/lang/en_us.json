@@ -15,5 +15,7 @@
   "block.tutorialmod.uranium_block": "Uranium Block",
   "block.tutorialmod.deepslate_uranium_ore": "Deepslate Uranium Ore",
 
+  "item.tutorialmod.iron_metal_detector": "Iron Metal Detector",
+
   "creativetab.tutorial_tab": "Tutorial Tab"
 }
