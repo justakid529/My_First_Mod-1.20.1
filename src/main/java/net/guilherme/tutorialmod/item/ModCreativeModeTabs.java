@@ -23,6 +23,8 @@ public class ModCreativeModeTabs {
                         pOutput.accept(moditem.SAPPHIRE.get());
                         pOutput.accept(moditem.RAW_SAPPHIRE.get());
                         pOutput.accept(moditem.URANIUM_INGOT.get());
+                        pOutput.accept(moditem.IRON_METAL_DETECTOR.get());
+                        pOutput.accept(moditem.STRAWBERRY.get());
 
                         //blocks
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());
@@ -35,6 +37,8 @@ public class ModCreativeModeTabs {
 
                         pOutput.accept(ModBlocks.DEEPSLATE_URANIUM_ORE.get());
                         pOutput.accept(ModBlocks.URANIUM_BLOCK.get());
+
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
 
 
                     })

@@ -1,6 +1,7 @@
 package net.guilherme.tutorialmod.item;
 
 import net.guilherme.tutorialmod.TutorialMod;
+import net.guilherme.tutorialmod.item.custom.MetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -20,6 +21,12 @@ public class moditem {
 
     public static final RegistryObject<Item> URANIUM_INGOT = ITEMS.register("uranium_ingot",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> IRON_METAL_DETECTOR = ITEMS.register("iron_metal_detector",
+            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+
+    public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
+            () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
