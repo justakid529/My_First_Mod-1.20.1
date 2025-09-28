@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond_block"
+    },
+    "/": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "tutorialmod:sapphire"
+    },
+    "?": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    " X/",
+    "X?X",
+    "#X "
+  ],
+  "result": {
+    "item": "tutorialmod:diamond_metal_detector"
+  },
+  "show_notification": true
+}
