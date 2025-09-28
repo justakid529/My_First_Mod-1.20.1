@@ -25,6 +25,7 @@ public class ModCreativeModeTabs {
                         pOutput.accept(moditem.URANIUM_INGOT.get());
                         pOutput.accept(moditem.IRON_METAL_DETECTOR.get());
                         pOutput.accept(moditem.STRAWBERRY.get());
+                        pOutput.accept(moditem.DIAMOND_METAL_DETECTOR.get());
 
                         //blocks
                         pOutput.accept(ModBlocks.RAW_SAPPHIRE_BLOCK.get());

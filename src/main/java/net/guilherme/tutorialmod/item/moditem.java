@@ -1,7 +1,8 @@
 package net.guilherme.tutorialmod.item;
 
 import net.guilherme.tutorialmod.TutorialMod;
-import net.guilherme.tutorialmod.item.custom.MetalDetectorItem;
+import net.guilherme.tutorialmod.item.custom.DiamondMetalDetectorItem;
+import net.guilherme.tutorialmod.item.custom.IronMetalDetectorItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -23,7 +24,10 @@ public class moditem {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> IRON_METAL_DETECTOR = ITEMS.register("iron_metal_detector",
-            () -> new MetalDetectorItem(new Item.Properties().durability(100)));
+            () -> new IronMetalDetectorItem(new Item.Properties().durability(100)));
+
+    public static final RegistryObject<Item> DIAMOND_METAL_DETECTOR = ITEMS.register("diamond_metal_detector",
+            () -> new DiamondMetalDetectorItem(new Item.Properties().durability(100)));
 
     public static final RegistryObject<Item> STRAWBERRY = ITEMS.register("strawberry",
             () -> new Item(new Item.Properties().food(ModFoods.STRAWBERRY)));
