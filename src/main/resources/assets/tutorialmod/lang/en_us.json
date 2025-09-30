@@ -20,5 +20,10 @@
 
   "item.tutorialmod.strawberry": "Strawberry",
 
+  "tooltip.tutorialmod.iron_metal_detector.tooltip": "Finds Iron Ore underground!",
+  "tooltip.tutorialmod.diamond_metal_detector.tooltip": "Finds Diamond Ore underground!",
+  "tooltip.tutorialmod.sound_block.tooltip": "Experimental Block for testing sounds - DIDGERIDOO",
+
+
   "creativetab.tutorial_tab": "Tutorial Tab"
 }
